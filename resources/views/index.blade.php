@@ -32,6 +32,7 @@
         <!-- Carousel End -->
     </div>
     <!-- Navbar & Hero End -->
+
     <!-- Services Start -->
     <div class="container-fluid service py-5">
         <div class="container py-5">
@@ -135,6 +136,7 @@
         </div>
     </div>
     <!-- Services End -->
+
     <!-- About Start -->
     <div class="container-fluid about bg-light py-5">
         <div class="container py-5">
@@ -302,7 +304,6 @@
     </div>
     <!-- Feature End -->
 
-
     <!-- Book Appointment Start -->
     <div class="container-fluid appointment py-5">
         <div class="container py-5">
@@ -386,6 +387,7 @@
             </div>
         </div>
     </div>
+
     <!-- Modal Video -->
     <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -405,7 +407,6 @@
         </div>
     </div>
     <!-- Book Appointment End -->
-
 
     <!-- Team Start -->
     <div class="container-fluid team py-5">
@@ -577,7 +578,6 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
 
     <!-- Blog Start -->
     <div class="container-fluid blog py-5">
