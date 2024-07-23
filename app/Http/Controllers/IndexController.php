@@ -18,7 +18,7 @@ class IndexController extends Controller
             $request->session()->get("userData");
            
 
-            return view($this->layout . "index");
+            return view("index");
 
         } catch (\Illuminate\Database\QueryException $e) {
             //throw $th;

@@ -34,6 +34,15 @@ class AppServiceProvider extends ServiceProvider
             // Get User
             $loggedInUser = Auth::user();
             $view->with('loggedInUser', $loggedInUser);
+
+            $headerMenu = [
+                'about-us' => "About Us",
+                'portfolio' => "Portfolio",
+                'career' => "Career",
+                'gallery' => "Gallery",
+                'contact' => "Contact Us",
+            ];
+            $view->with('headerMenu', $headerMenu);
         });
     }
 }
