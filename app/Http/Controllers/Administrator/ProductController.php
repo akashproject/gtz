@@ -4,16 +4,16 @@ namespace App\Http\Controllers\Administrator;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Page;
+use App\Models\Product;
 
-class PageController extends Controller
+class ProductController extends Controller
 {
     //
     public function index()
     {
         try {
-            $pages = Page::all();
-            return view('administrator.pages.index',compact('pages'));
+            $products = Product::all();
+            return view('administrator.products.index',compact('products'));
 
         } catch(\Illuminate\Database\QueryException $e){
             //throw $th;
@@ -22,7 +22,7 @@ class PageController extends Controller
 
     public function add() {
         try {
-            return view('administrator.pages.add');
+            return view('administrator.products.add');
         } catch(\Illuminate\Database\QueryException $e){
             //throw $th;
         }
@@ -32,8 +32,8 @@ class PageController extends Controller
     public function show($id)
     {
         try {
-            $page = Page::findorFail($id);
-            return view('administrator.pages.show',compact('page'));
+            $product = Product::findorFail($id);
+            return view('administrator.products.show',compact('product'));
         } catch(\Illuminate\Database\QueryException $e){
         }        
     }
@@ -48,21 +48,21 @@ class PageController extends Controller
                 'template' => 'required',
             ]);
            
-            if($data['page_id'] <= 0){
-                Page::create($data);
+            if($data['product_id'] <= 0){
+                Product::create($data);
             } else {
-                $institute = Page::findOrFail($data['page_id']);
+                $institute = Product::findOrFail($data['product_id']);
                 $institute->update($data);
             }
-            return redirect()->back()->with('message', 'Page updated successfully!');
+            return redirect()->back()->with('message', 'Product updated successfully!');
         } catch(\Illuminate\Database\QueryException $e){
             var_dump($e->getMessage()); 
         }
     }
 
     public function delete($id) {
-        $course = Page::findOrFail($id);
+        $course = Product::findOrFail($id);
         $course->delete();
-        return redirect()->back()->with('message', 'Page deleted successfully!');
+        return redirect()->back()->with('message', 'Product deleted successfully!');
     }
 }

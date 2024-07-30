@@ -8,10 +8,10 @@
 
 	<div class="card">
 
-		<form class="form-horizontal" method="post" action="{{ url('administrator/save-page') }}" enctype="multipart/form-data">
+		<form class="form-horizontal" method="post" action="{{ url('administrator/save-product') }}" enctype="multipart/form-data">
 			@csrf
 			<div class="card-body">
-				<h4 class="card-title"> Add Page </h4>
+				<h4 class="card-title"> Add Product </h4>
 				@if ($errors->any())
 					<div class="alert alert-danger">
 						<ul>
@@ -33,13 +33,13 @@
 						<div class="mb-3 row">
 							<label for="name" class="col-md-3 col-form-label">Name</label>
 							<div class="col-md-9">
-								<input name="name" class="form-control" type="text" value="" id="name" placeholder="Enter Page Name Here" >
+								<input name="name" class="form-control" type="text" value="" id="name" placeholder="Enter Name Here" >
 							</div>
 						</div>
 						<div class="mb-3 row">
 							<label for="name" class="col-md-3 col-form-label">Slug</label>
 							<div class="col-md-9">
-								<input name="slug" class="form-control" type="text" value="" id="name" placeholder="Enter Page Slug Here" >
+								<input name="slug" class="form-control" type="text" value="" id="name" placeholder="Enter Slug Here" >
 							</div>
 						</div>
 						<div class="mb-3 row">
@@ -154,7 +154,7 @@
 						<div class="mb-2 row">
 							<label for="robots" class="col-sm-3 text-right control-label col-form-label">Robots Content</label>
 							<div class="col-sm-9">
-								<input type="text" class="form-control" name="robots" id="robots" placeholder="Enter Page Pincode Here" value="index, follow" >
+								<input type="text" class="form-control" name="robots" id="robots" placeholder="Enter Product Pincode Here" value="index, follow" >
 							</div>
 						</div>
 					</div>
@@ -181,7 +181,7 @@
 
 					<button type="submit" class="btn btn-primary">Submit</button>
 
-					<input type="hidden" name="page_id" id="page_id" value="" >
+					<input type="hidden" name="product_id" id="product_id" value="" >
 
 				</div>
 

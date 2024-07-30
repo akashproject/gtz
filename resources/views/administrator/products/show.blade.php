@@ -8,7 +8,7 @@
 
 	<div class="card">
 
-		<form class="form-horizontal" method="post" action="{{ url('administrator/save-page') }}" enctype="multipart/form-data">
+		<form class="form-horizontal" method="post" action="{{ url('administrator/save-product') }}" enctype="multipart/form-data">
 
 			@csrf
 
@@ -54,7 +54,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="name" id="name" placeholder="Name Here"  value="{{ $page->name }}" >
+								<input type="text" class="form-control" name="name" id="name" placeholder="Name Here"  value="{{ $product->name }}" >
 
 							</div>
 
@@ -66,7 +66,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="slug" id="slug" placeholder="Slug Here"  value="{{ $page->slug }}" >
+								<input type="text" class="form-control" name="slug" id="slug" placeholder="Slug Here"  value="{{ $product->slug }}" >
 
 							</div>
 
@@ -78,7 +78,7 @@
 
 							<div class="col-sm-9">
 
-								<textarea class="form-control editor" name="description" id="description" placeholder="Enter description Here" >{{ $page->description }}</textarea>
+								<textarea class="form-control editor" name="description" id="description" placeholder="Enter description Here" >{{ $product->description }}</textarea>
 
 							</div>
 
@@ -96,7 +96,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="template" id="template" placeholder="Template Here" value="{{ $page->template }}">
+								<input type="text" class="form-control" name="template" id="template" placeholder="Template Here" value="{{ $product->template }}">
 
 							</div>
 
@@ -112,9 +112,9 @@
 
 									<option value="">Enable Otp</option>
 
-									<option value="1" {{ ( $page->enable_otp ==  '1' )? 'selected' : '' }}> Yes</option>
+									<option value="1" {{ ( $product->enable_otp ==  '1' )? 'selected' : '' }}> Yes</option>
 
-									<option value="0" {{ ( $page->enable_otp ==  '0' )? 'selected' : '' }}> No </option>
+									<option value="0" {{ ( $product->enable_otp ==  '0' )? 'selected' : '' }}> No </option>
 
 								<select>
 
@@ -132,9 +132,9 @@
 
 									<option value="">Update Status</option>
 
-									<option value="1" {{ ( $page->status ==  '1' )? 'selected' : '' }} > Publish</option>
+									<option value="1" {{ ( $product->status ==  '1' )? 'selected' : '' }} > Publish</option>
 
-									<option value="0" {{ ( $page->status ==  '0' )? 'selected' : '' }}> Private </option>
+									<option value="0" {{ ( $product->status ==  '0' )? 'selected' : '' }}> Private </option>
 
 								<select>
 
@@ -148,17 +148,17 @@
 
 							<label for="tags" class="col-md-4 text-left control-label col-form-label">Banner Image</label>
 
-							<div class="col-sm-8 text-page">
+							<div class="col-sm-8 text-product">
 
 								<a href="#imageBox" class="image-profile open-popup-link">
 
-									<img src="{{ (isset($page->banner_image))?getSizedImage('',$page->banner_image):'https://dummyimage.com/250x250?text=Add%20Image' }}" alt="" style="width:100%">
+									<img src="{{ (isset($product->banner_image))?getSizedImage('',$product->banner_image):'https://dummyimage.com/250x250?text=Add%20Image' }}" alt="" style="width:100%">
 
-									<input type="hidden" name="banner_image" id="banner_image" value="{{ $page->banner_image }}" >	
+									<input type="hidden" name="banner_image" id="banner_image" value="{{ $product->banner_image }}" >	
 
 								</a>	
 
-								@if(isset($page->banner_image))
+								@if(isset($product->banner_image))
 
 									<a href="javascript:void(0)" class="removeImage" style="color: #c90f0f;font-weight: 600;"> Remove Image </a>	
 
@@ -186,7 +186,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="title" id="title" placeholder="Title Here" value="{{ $page->title }}" >
+								<input type="text" class="form-control" name="title" id="title" placeholder="Title Here" value="{{ $product->title }}" >
 
 							</div>
 
@@ -198,7 +198,7 @@
 
 							<div class="col-sm-9">
 
-								<textarea class="form-control" name="meta_description" id="meta_description" placeholder="Enter Meta Description Here" >{{ $page->meta_description }}</textarea>
+								<textarea class="form-control" name="meta_description" id="meta_description" placeholder="Enter Meta Description Here" >{{ $product->meta_description }}</textarea>
 
 							</div>
 
@@ -210,7 +210,7 @@
 
 							<div class="col-sm-9">
 
-								<textarea class="form-control" name="schema" id="schema" placeholder="Enter Schema Code" >{{ $page->schema }}</textarea>
+								<textarea class="form-control" name="schema" id="schema" placeholder="Enter Schema Code" >{{ $product->schema }}</textarea>
 
 							</div>
 
@@ -222,7 +222,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="utm_campaign" id="utm_campaign" placeholder="Enter Utm Campaign Here" value="{{ $page->utm_campaign }}">
+								<input type="text" class="form-control" name="utm_campaign" id="utm_campaign" placeholder="Enter Utm Campaign Here" value="{{ $product->utm_campaign }}">
 
 							</div>
 
@@ -234,7 +234,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="lead_type" id="lead_type" placeholder="Enter Utm Campaign Here" value="{{ $page->lead_type }}">
+								<input type="text" class="form-control" name="lead_type" id="lead_type" placeholder="Enter Utm Campaign Here" value="{{ $product->lead_type }}">
 
 							</div>
 
@@ -248,7 +248,7 @@
 
 							<div class="col-sm-9">
 
-								<input type="text" class="form-control" name="utm_source" id="utm_source" placeholder="Enter Utm Source Here"  value="{{ $page->utm_source }}">
+								<input type="text" class="form-control" name="utm_source" id="utm_source" placeholder="Enter Utm Source Here"  value="{{ $product->utm_source }}">
 
 							</div>
 
@@ -262,7 +262,7 @@
 
 							<div class="col-sm-9">
 
-							<input type="text" class="form-control" name="robots" id="robots" placeholder="Enter Center Pincode Here" value="{{ $page->robots }}" >
+							<input type="text" class="form-control" name="robots" id="robots" placeholder="Enter Center Pincode Here" value="{{ $product->robots }}" >
 
 							</div>
 
@@ -274,7 +274,7 @@
 
 							<div class="col-sm-9">
 
-							<input type="text" class="form-control" name="canonical" id="canonical" placeholder="Enter Center Pincode Here" value="{{ $page->canonical }}">
+							<input type="text" class="form-control" name="canonical" id="canonical" placeholder="Enter Center Pincode Here" value="{{ $product->canonical }}">
 
 							</div>
 
@@ -296,7 +296,7 @@
 
 					<button type="submit" class="btn btn-primary">Submit</button>
 
-					<input type="hidden" name="page_id" id="page_id" value="{{ $page->id }}" >
+					<input type="hidden" name="product_id" id="product_id" value="{{ $product->id }}" >
 
 				</div>
 
