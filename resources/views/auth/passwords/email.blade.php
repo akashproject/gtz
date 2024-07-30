@@ -14,7 +14,7 @@
             @endif
             <!-- Logo -->
             <div class="app-brand justify-content-center">
-                <a href="{{ route('website') }}" class="app-brand-link gap-2">
+                <a href="{{ route('web') }}" class="app-brand-link gap-2">
                     <span class="app-brand-logo demo">
                     <svg
                         width="25"

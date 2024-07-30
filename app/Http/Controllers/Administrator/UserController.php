@@ -9,10 +9,10 @@ use App\Models\User;
 class UserController extends Controller
 {
     //
-    public function index($role)
+    public function index()
     {
         try {
-            $users = User::role($role)->get();;
+            $users = User::all();
             return view('administrator.users.index',compact('users'));
 
         } catch(\Illuminate\Database\QueryException $e){

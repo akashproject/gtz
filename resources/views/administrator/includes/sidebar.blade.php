@@ -78,7 +78,7 @@
 
          <!-- Layouts -->
          <li class="menu-item">
-            <a href="{{ route('website') }}" class="menu-link">
+            <a href="{{ route('web') }}" class="menu-link">
                <i class="menu-icon tf-icons bx bx-globe"></i>
                <div data-i18n="globe">Visit Site</div>
             </a>
@@ -94,13 +94,8 @@
             </a>
             <ul class="menu-sub">
                <li class="menu-item">
-                  <a href="{{ route('admin-users','teacher') }}" class="menu-link">
-                     <div data-i18n="Notifications">Teachers</div>
-                  </a>
-               </li>
-               <li class="menu-item">
-                  <a href="{{ route('admin-users','student') }}" class="menu-link">
-                     <div data-i18n="Connections"> Students </div>
+                  <a href="{{ route('admin-users') }}" class="menu-link">
+                     <div data-i18n="Connections"> Users </div>
                   </a>
                </li>
             </ul>
@@ -110,6 +105,42 @@
                <i class="menu-icon tf-icons bx bx-image"></i>
                <div data-i18n="Settings">Media Library</div>
             </a>
+         </li>
+         <li class="menu-item">
+            <a href="javascript:void(0)" class="menu-link menu-toggle">
+               <i class="menu-icon tf-icons bx bx-file-blank"></i>
+               <div data-i18n="Authentications">Page</div>
+            </a>
+            <ul class="menu-sub">
+               <li class="menu-item">
+                  <a href="{{ route('admin-pages') }}" class="menu-link">
+                     <div data-i18n="Basic">Pages</div>
+                  </a>
+               </li>
+               <li class="menu-item">
+                  <a href="{{ route('admin-add-page') }}" class="menu-link">
+                     <div data-i18n="Basic">Add Pages</div>
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="menu-item">
+            <a href="javascript:void(0)" class="menu-link menu-toggle">
+               <i class="menu-icon tf-icons bx bx-package"></i>
+               <div data-i18n="Authentications">Product</div>
+            </a>
+            <ul class="menu-sub">
+               <li class="menu-item">
+                  <a href="{{ route('admin-products') }}" class="menu-link">
+                     <div data-i18n="Basic">Products</div>
+                  </a>
+               </li>
+               <li class="menu-item">
+                  <a href="{{ route('admin-add-product') }}" class="menu-link">
+                     <div data-i18n="Basic">Add Product</div>
+                  </a>
+               </li>
+            </ul>
          </li>
          <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
