@@ -49,6 +49,7 @@ class ProductController extends Controller
             ]);
            
             if($data['product_id'] <= 0){
+                //dd($data);
                 Product::create($data);
             } else {
                 $institute = Product::findOrFail($data['product_id']);

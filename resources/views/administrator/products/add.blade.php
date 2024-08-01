@@ -1,13 +1,7 @@
 @extends('administrator.layouts.admin')
-
-
-
 @section('content')
-
 <div class="col-12">
-
 	<div class="card">
-
 		<form class="form-horizontal" method="post" action="{{ url('administrator/save-product') }}" enctype="multipart/form-data">
 			@csrf
 			<div class="card-body">
@@ -192,32 +186,10 @@
 
 
 		</form>
-
-
-
 	</div>
-
 </div>              
-
-
-
 @endsection
-
-
-
 @section('script')
-
-
-
 <!-- ============================================================== -->
-
-
-
 <!-- CHARTS -->
-
-
-
 @endsection
-
-
-
