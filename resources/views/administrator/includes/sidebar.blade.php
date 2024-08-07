@@ -140,6 +140,11 @@
                      <div data-i18n="Basic">Add Product</div>
                   </a>
                </li>
+               <li class="menu-item">
+                  <a href="{{ route('admin-categories') }}" class="menu-link">
+                     <div data-i18n="Basic">Categories</div>
+                  </a>
+               </li>
             </ul>
          </li>
          <li class="menu-item">

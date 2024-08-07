@@ -5,6 +5,11 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('web');
+Route::get('/{slug}', [App\Http\Controllers\PageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
+Route::get('/ads/{slug}', [App\Http\Controllers\AdPageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
+Route::get('/category/{slug}', [App\Http\Controllers\ProductController::class, 'courseListByCategory'])->name('course-category');
+Route::get('/products/{slug}', [App\Http\Controllers\ProductController::class, 'viewProduct'])->name('view-products');
+Route::get('/search/{slug}', [App\Http\Controllers\ProductController::class, 'search'])->name('search-products');
 Route::group(['prefix' => 'administrator'], function () {
 
     Route::get('/signin', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
@@ -13,6 +18,7 @@ Route::group(['prefix' => 'administrator'], function () {
     Route::get('/signup', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
     Route::post('/signup', [App\Http\Controllers\Auth\RegisterController::class, 'register'])->name('register');
 
+    
     Route::group(['middleware' => ['auth','role:super-admin|admin']], function () {
         Route::get('/dashboard', [App\Http\Controllers\Administrator\IndexController::class, 'index'])->name('dashboard');
         Route::get('/', [App\Http\Controllers\Administrator\IndexController::class, 'index'])->name('administrator');

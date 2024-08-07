@@ -5,6 +5,8 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
 use App\Models\Media;
+use App\Models\Products;
+use App\Models\Category;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use View;
@@ -43,6 +45,9 @@ class AppServiceProvider extends ServiceProvider
                 'contact' => "Contact Us",
             ];
             $view->with('headerMenu', $headerMenu);
+
+            $categories = Category::where('status',"1")->get();
+            $view->with('categories', $categories);
         });
     }
 }
