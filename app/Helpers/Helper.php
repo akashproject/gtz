@@ -74,3 +74,13 @@ if (! function_exists('get_theme_setting')) {
         return (isset($media->value))?$media->value:"null";
     }
 }
+
+if (! function_exists('allCategories')) {
+    function allCategories($value){
+        try {
+            return $categories = Category::where('status', 1)->get();
+        } catch(\Illuminate\Database\QueryException $e){
+            throw $e;
+        }
+    }
+}

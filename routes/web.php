@@ -7,7 +7,7 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('web');
 Route::get('/{slug}', [App\Http\Controllers\PageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
 Route::get('/ads/{slug}', [App\Http\Controllers\AdPageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
-Route::get('/category/{slug}', [App\Http\Controllers\ProductController::class, 'courseListByCategory'])->name('course-category');
+Route::get('/category/{slug}', [App\Http\Controllers\ProductController::class, 'productListByCategory'])->name('course-category');
 Route::get('/products/{slug}', [App\Http\Controllers\ProductController::class, 'viewProduct'])->name('view-products');
 Route::get('/search/{slug}', [App\Http\Controllers\ProductController::class, 'search'])->name('search-products');
 Route::group(['prefix' => 'administrator'], function () {
