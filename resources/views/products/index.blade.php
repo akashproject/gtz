@@ -25,90 +25,155 @@
                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
                 <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded">
-                            <div class="service-img rounded-top">
-                                <img src="{{ url('/assets/frontend/img/th1.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            </div>
-                            <div class="service-content rounded-bottom bg-light py-2">
-                                <div class="service-content-inner text-center">
-                                    <h5 class="mb-4">DEGREASING CHEMICAL</h4>
+                    <div class="row mb-4">
+                        <div class="col-md-2">
+                            <img src="{{ url('/assets/frontend/img/th1.jpg') }}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="col-md-10">
+                            <h5 class="mb-4">DEGREASING CHEMICAL</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!</p>
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-diagnoses fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Licensed Therapist</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-briefcase-medical fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Personalized Treatment</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-hospital-user fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Therapy Goals</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-users fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Practitioners Network</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-spa fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Comfortable Center</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-heart fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Experienced Stuff</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fab fa-pied-piper fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Therapy Goals</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="row-cols-1 feature-item p-4">
+                                        <div class="col-12">
+                                            <div class="feature-icon mb-4">
+                                                <div class="p-3 d-inline-flex bg-white rounded">
+                                                    <i class="fas fa-user-md fa-4x text-primary"></i>
+                                                </div>
+                                            </div>
+                                            <div class="feature-content d-flex flex-column">
+                                                <h5 class="mb-4">Licensed Therapist</h5>
+                                                <p class="mb-0">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus,</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded">
-                            <div class="service-img rounded-top">
-                                <img src="{{ url('/assets/frontend/img/th1.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            </div>
-                            <div class="service-content rounded-bottom bg-light py-2">
-                                <div class="service-content-inner text-center">
-                                    <h4 class="mb-3">CYANIDE ZINC PLATING CHEMICALS</h4>
-                                    
-                                </div>
-                            </div>
+                    <div class="row mb-4">
+                        <div class="col-md-2">
+                            <img src="{{ url('/assets/frontend/img/th1.jpg') }}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="col-md-10">
+                            <h5 class="mb-4">CYANIDE ZINC PLATING CHEMICALS</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item rounded">
-                            <div class="service-img rounded-top">
-                                <img src="{{ url('/assets/frontend/img/th2.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            </div>
-                            <div class="service-content rounded-bottom bg-light py-2">
-                                <div class="service-content-inner text-center">
-                                    <h4 class="mb-3">ACID ZINC PLATING CHEMICALS</h4>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
+                    <div class="row mb-4">
+                        <div class="col-md-2">
+                            <img src="{{ url('/assets/frontend/img/th1.jpg') }}" class="img-fluid rounded-top w-100" alt="">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item rounded">
-                            <div class="service-img rounded-top">
-                                <img src="{{ url('/assets/frontend/img/th3.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            </div>
-                            <div class="service-content rounded-bottom bg-light py-2">
-                                <div class="service-content-inner text-center">
-                                    <h4 class="mb-3">Textile Chemicals</h4>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
+                        <div class="col-md-10">
+                            <h5 class="mb-4">CYANIDE ZINC PLATING CHEMICALS</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!</p>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded">
-                            <div class="service-img rounded-top">
-                                <img src="{{ url('/assets/frontend/img/th4.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            </div>
-                            <div class="service-content rounded-bottom bg-light py-2">
-                                <div class="service-content-inner text-center">
-                                    <h4 class="mb-3">Leather Processing Chemicals</h4>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded">
-                            <div class="service-img rounded-top">
-                                <img src="{{ url('/assets/frontend/img/th5.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            </div>
-                            <div class="service-content rounded-bottom bg-light py-2">
-                                <div class="service-content-inner text-center">
-                                    <h4 class="mb-3">Coatings Chemicals</h4>
-                                    <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Checkout More Products</a>
                     </div>
                 </div>
             </div>
