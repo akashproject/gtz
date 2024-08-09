@@ -26,7 +26,6 @@ class CategoryController extends Controller
     {
         try {
             $category = Category::find($id);
-            //$posts = $category->course()->where('approved', 'true')->paginate(15);
             $listCategory = Category::all();
             return view('administrator.category.show',compact('category','listCategory'));
         } catch(\Illuminate\Database\QueryException $e){
@@ -37,7 +36,6 @@ class CategoryController extends Controller
     public function save(Request $request) {
         try {
             $data = $request->all();
-            
             $validatedData = $request->validate([
                 'title' => 'required',
                 'slug' => 'required',
@@ -47,6 +45,8 @@ class CategoryController extends Controller
                 'utm_source' => 'required',
             ]);
             if($data['course_type_id'] <= 0){
+                // print_r($data);
+                // exit;
                 Category::create($data);
             } else {
                 $category = Category::findOrFail($data['course_type_id']);

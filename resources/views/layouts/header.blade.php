@@ -48,7 +48,7 @@
 					</div>
 				</div>
 				@foreach($headerMenu as $key => $menu)
-					<a href="{{$key}}" class="nav-item nav-link">{{ $menu }}</a>
+					<a href="{{ url($key) }}" class="nav-item nav-link">{{ $menu }}</a>
 				@endforeach
 			</div>
 			<a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a>

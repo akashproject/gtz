@@ -444,8 +444,8 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg);
-    background-position: center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/metal-finishing-chemicals.jpg);
+    background-position: inherit;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 160px 0 60px 0;
@@ -582,6 +582,11 @@
     transition: 0.5s;
 
 }
+.feature-item {
+    border: 1px solid #fff2f2;
+    background: #f4fbff;
+    box-shadow: 1px 1px 1px 0px #e9e9f9;
+}
 
 .feature .feature-item::before {
     width: 0;
@@ -624,7 +629,7 @@
 
 /*** Appointment Start ***/
 .appointment {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/metal-finishing-chemicals.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1162,7 +1167,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/carousel-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/metal-finishing-chemicals.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1213,4 +1218,24 @@
     color: #ffc926;
     font-size: 13px;
     display: inline-block;
+}
+.sl_no {
+    color: #1e7fc2;
+    line-height: 0;
+    font-size: 50px;
+}
+.product_title {
+    font-size: 30px;
+    color: #1e7fc2;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+span.tag {
+    border: 1px solid;
+    padding: 1px 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    border-radius: 9px;
+    background: #e6f5ff;
+    color: #1e7fc2;
 }

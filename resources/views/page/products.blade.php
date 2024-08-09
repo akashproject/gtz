@@ -49,7 +49,7 @@
                                     <h4 class="mb-3">Coatings Chemicals</h4>
                                     
                                     <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                                    <a  href="{{ route('view-products','metal-finishing-chemicals') }}" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                     <h4 class="mb-3">Coatings Chemicals</h4>
                                     
                                     <p class="mb-4">Dolor, sit amet consectetur adipisicing elit. Soluta inventore cum accusamus, dolor qui ullam</p>
-                                    <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                                    <a href="{{ url('view-products','metal-finishing-chemicals') }}" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
                                 </div>
                             </div>
                         </div>

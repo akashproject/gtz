@@ -38,15 +38,15 @@ class AppServiceProvider extends ServiceProvider
             $view->with('loggedInUser', $loggedInUser);
 
             $headerMenu = [
-                'about-us' => "About Us",
-                'portfolio' => "Portfolio",
-                'career' => "Career",
-                'gallery' => "Gallery",
-                'contact' => "Contact Us",
+                '/about-us' => "About Us",
+                '/portfolio' => "Portfolio",
+                '/career' => "Career",
+                '/gallery' => "Gallery",
+                '/contact-us' => "Contact Us",
             ];
             $view->with('headerMenu', $headerMenu);
 
-            $categories = Category::where('status',"1")->get();
+            $categories = Category::where('status',"1")->whereNull('parent_id')->get();
             $view->with('categories', $categories);
         });
     }

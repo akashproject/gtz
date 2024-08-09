@@ -1,16 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
+use Spatie\Sitemap\SitemapGenerator;
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE, PATCH');
+header('Access-Control-Allow-Headers: Content-Type, X-Auth-Token, Origin, Authorization');
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('web');
-Route::get('/{slug}', [App\Http\Controllers\PageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
-Route::get('/ads/{slug}', [App\Http\Controllers\AdPageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
-Route::get('/category/{slug}', [App\Http\Controllers\ProductController::class, 'productListByCategory'])->name('course-category');
-Route::get('/products/{slug}', [App\Http\Controllers\ProductController::class, 'viewProduct'])->name('view-products');
-Route::get('/search/{slug}', [App\Http\Controllers\ProductController::class, 'search'])->name('search-products');
-Route::group(['prefix' => 'administrator'], function () {
+Route::group(['prefix' => 'administrator', 'namespace' => 'Admin'], function () {
 
     Route::get('/signin', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
     Route::post('/signin', [App\Http\Controllers\Auth\LoginController::class, 'login'])->name('login');
@@ -18,7 +18,6 @@ Route::group(['prefix' => 'administrator'], function () {
     Route::get('/signup', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->name('register');
     Route::post('/signup', [App\Http\Controllers\Auth\RegisterController::class, 'register'])->name('register');
 
-    
     Route::group(['middleware' => ['auth','role:super-admin|admin']], function () {
         Route::get('/dashboard', [App\Http\Controllers\Administrator\IndexController::class, 'index'])->name('dashboard');
         Route::get('/', [App\Http\Controllers\Administrator\IndexController::class, 'index'])->name('administrator');
@@ -90,3 +89,10 @@ Route::group(['prefix' => 'administrator'], function () {
 Route::group(['middleware' => ['auth']], function () {
     
 });
+
+Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('web');
+Route::get('/{slug}', [App\Http\Controllers\PageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)')->name('page');
+Route::get('/ads/{slug}', [App\Http\Controllers\AdPageController::class, 'index'])->where('slug', '([A-Za-z0-9\-]+)');
+Route::get('/category/{slug}', [App\Http\Controllers\ProductController::class, 'productListByCategory'])->name('course-category');
+Route::get('/products/{slug}', [App\Http\Controllers\ProductController::class, 'productListByCategory'])->name('view-products');
+Route::get('/search/{slug}', [App\Http\Controllers\ProductController::class, 'search'])->name('search-products');
