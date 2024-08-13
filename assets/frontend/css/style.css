@@ -6,6 +6,9 @@
     --bs-primary: #1e7fc2;
 
 }
+.text-primary{
+    color:#1e7fc2;
+}
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -1238,4 +1241,29 @@ span.tag {
     border-radius: 9px;
     background: #e6f5ff;
     color: #1e7fc2;
+}
+.display-3 {
+    color: #1e7fc2;
+}
+
+.r_n_d_container {
+    background: #f1f9ff;
+}
+.r_n_d_row {
+    display: block;
+    overflow: hidden;
+}
+.left_image {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.right_content {
+    padding: 12px 50px;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.right_content p {
+    font-size: 14px;
 }
