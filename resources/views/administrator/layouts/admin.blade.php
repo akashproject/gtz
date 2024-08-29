@@ -8,7 +8,7 @@
 
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Baazar') }}</title>
+    <title>{{ config('app.name', 'GTZ') }}</title>
 
     <!-- Scripts -->
     <!-- Fonts -->

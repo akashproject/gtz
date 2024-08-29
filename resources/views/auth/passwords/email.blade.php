@@ -70,7 +70,7 @@
                         </g>
                     </svg>
                     </span>
-                    <span class="app-brand-text demo text-body fw-bolder">Baazar</span>
+                    <span class="app-brand-text demo text-body fw-bolder">GTZ</span>
                 </a>
             </div>
             <!-- /Logo -->

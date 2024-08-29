@@ -40,7 +40,7 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<div class="navbar-nav ms-auto py-0">
 				<div class="nav-item dropdown">
-					<a href="{{ url('/products')}}" target="_blank" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products</a>
+					<a href="{{ url('/products')}}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products</a>
 					<div class="dropdown-menu m-0">
 						@foreach($categories as $category)
 							<a href="{{ url('/category/'.$category->slug) }}" class="dropdown-item">{{$category->name}}</a>

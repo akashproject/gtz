@@ -5,6 +5,8 @@ use Jenssegers\Agent\Facades\Agent;
 use Illuminate\Support\Facades\Cache;
 use Spatie\Permission\Models\Permission;
 use App\Models\Setting;
+use App\Models\Category;
+
 if (! function_exists('check_device')) {
     function check_device($param = null){
         $device = "";
@@ -76,9 +78,10 @@ if (! function_exists('get_theme_setting')) {
 }
 
 if (! function_exists('allCategories')) {
-    function allCategories($value){
+    function allCategories(){
         try {
-            return $categories = Category::where('status', 1)->get();
+            $categories = Category::where('status', "1")->whereNull('parent_id')->get();
+            return $categories;
         } catch(\Illuminate\Database\QueryException $e){
             throw $e;
         }
