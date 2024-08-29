@@ -87,3 +87,4 @@ if (! function_exists('allCategories')) {
         }
     }
 }
+

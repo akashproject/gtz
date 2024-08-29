@@ -147,6 +147,26 @@
                </li>
             </ul>
          </li>
+
+         <li class="menu-item">
+            <a href="javascript:void(0)" class="menu-link menu-toggle">
+               <i class="menu-icon tf-icons bx bx-briefcase-alt-2"></i>
+               <div data-i18n="Authentications">Job</div>
+            </a>
+            <ul class="menu-sub">
+               <li class="menu-item">
+                  <a href="{{ route('admin-jobs') }}" class="menu-link">
+                     <div data-i18n="Basic">Jobs</div>
+                  </a>
+               </li>
+               <li class="menu-item">
+                  <a href="{{ route('admin-add-job') }}" class="menu-link">
+                     <div data-i18n="Basic">Add Jobs</div>
+                  </a>
+               </li>
+            </ul>
+         </li>
+
          <li class="menu-item">
             <a href="javascript:void(0)" class="menu-link menu-toggle">
                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
@@ -165,6 +185,7 @@
                </li>
             </ul>
          </li>
+
          <li class="menu-item">
             <a href="{{ route('admin-settings') }}" class="menu-link">
                <i class="menu-icon tf-icons bx bx-cog"></i>
