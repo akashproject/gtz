@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Cache;
 use Spatie\Permission\Models\Permission;
 use App\Models\Setting;
 use App\Models\Category;
+use App\Models\Vacancy;
 
 if (! function_exists('check_device')) {
     function check_device($param = null){
@@ -82,6 +83,17 @@ if (! function_exists('allCategories')) {
         try {
             $categories = Category::where('status', "1")->whereNull('parent_id')->get();
             return $categories;
+        } catch(\Illuminate\Database\QueryException $e){
+            throw $e;
+        }
+    }
+}
+
+if (! function_exists('jobs')) {
+    function getJobs(){
+        try {
+            $jobs = Vacancy::all();
+            return $jobs;
         } catch(\Illuminate\Database\QueryException $e){
             throw $e;
         }

@@ -76,20 +76,18 @@
                             <div class="d-flex flex-column align-items-center text-center mb-4">
                                 <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
                                 <h4 class="text-dark">Addresses</h4>
-                                <p class="mb-0 text-white">123 ranking Street, New York, USA</p>
+                                <p class="mb-0 text-white">{{ get_theme_setting('address') }}</p>
                             </div>
                             <div class="d-flex flex-column align-items-center text-center mb-4">
                                 <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
                                 <h4 class="text-dark">Mobile</h4>
-                                <p class="mb-0 text-white">+012 345 67890</p>
-                                <p class="mb-0 text-white">+012 345 67890</p>
+                                <p class="mb-0 text-white">{{ get_theme_setting('mobile') }}</p>
                             </div>
                            
                             <div class="d-flex flex-column align-items-center text-center">
                                 <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
                                 <h4 class="text-dark">Email</h4>
-                                <p class="mb-0 text-white">info@example.com</p>
-                                <p class="mb-0 text-white">info@example.com</p>
+                                <p class="mb-0 text-white">{{ get_theme_setting('email') }}</p>
                             </div>
                         </div>
                     </div>

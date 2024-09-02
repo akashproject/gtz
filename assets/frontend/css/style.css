@@ -1267,3 +1267,27 @@ span.tag {
 .right_content p {
     font-size: 14px;
 }
+.blog-title-content.headline h3 a {
+    color: #1e7fc2;
+    font-weight: 800;
+}
+.blog-content {
+    color: #333;
+}
+ul.career-tag {
+    padding: 0;
+}
+.list-career-item {
+    border-bottom: 1px solid #cfebff;
+}
+li.career-tag-item {
+    display: inline-flex;
+    margin: 0 5px;
+    border: 1px solid;
+    padding: 5px 30px;
+    border-radius: 14px;
+    color: #1e7fc2;
+}
+li.career-tag-item a {
+    color: #1e7fc2;
+}
