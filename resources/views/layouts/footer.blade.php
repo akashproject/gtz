@@ -23,24 +23,35 @@
                     <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
                     <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
                     <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
-                    <h4 class="mb-4 text-white">Products</h4>
-                    @foreach($categories as $category)
-                    <a href=""><i class="fas fa-angle-right me-2"></i> {{$category->name}}</a>
-                    @endforeach
+                    <h4 class="mb-4 text-white">Terapia Services</h4>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> All Services</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Physiotherapy</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Diagnostics</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Manual Therapy</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Massage Therapy</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Rehabilitation</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
                     <h4 class="mb-4 text-white">Contact Info</h4>
-                    <a href=""><i class="fa fa-map-marker-alt me-2"></i>{{ get_theme_setting('address') }}</a>
-                    <a href=""><i class="fas fa-envelope me-2"></i> {{ get_theme_setting('email') }}</a>
-                    <a href=""><i class="fas fa-phone me-2"></i> {{ get_theme_setting('mobile') }}</a>
+                    <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                    <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                    <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div id="lead-generate-popup" class="white-popup mfp-hide">
+    <h5 class="text-center">GET IN TOUCH</h2>
+     @include('common.leadCaptureForm')
 </div>

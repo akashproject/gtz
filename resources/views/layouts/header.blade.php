@@ -40,7 +40,7 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<div class="navbar-nav ms-auto py-0">
 				<div class="nav-item dropdown">
-					<a href="{{ url('/products')}}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Products</a>
+					<a href="{{ url('/products')}}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" onClick="window.location.href='/products'">Products</a>
 					<div class="dropdown-menu m-0">
 						@foreach($categories as $category)
 							<a href="{{ url('/category/'.$category->slug) }}" class="dropdown-item">{{$category->name}}</a>
@@ -51,7 +51,7 @@
 					<a href="{{ url($key) }}" class="nav-item nav-link">{{ $menu }}</a>
 				@endforeach
 			</div>
-			<a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book Appointment</a>
+			<a href="#lead-generate-popup" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0 open-popup-link">Book Appointment</a>
 		</div>
 	</nav>
 </div>

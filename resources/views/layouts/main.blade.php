@@ -43,6 +43,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="{{ url('assets/frontend/lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/frontend/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ url('assets/frontend/css/magnific-popup.css') }}" rel="stylesheet">
     <link href="{{ url('assets/frontend/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/frontend/css/style.css') }}" rel="stylesheet">
     
@@ -73,6 +74,7 @@
     <script src="{{ url('assets/frontend/lib/easing/easing.min.js') }}"></script>
     <script src="{{ url('assets/frontend/lib/waypoints/waypoints.min.js') }}"></script>
     <script src="{{ url('assets/frontend/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ url('assets/frontend/js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ url('assets/frontend/js/main.js') }}"></script>
 
 </body>

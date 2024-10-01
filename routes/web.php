@@ -78,6 +78,7 @@ Route::group(['prefix' => 'administrator', 'namespace' => 'Admin'], function () 
         Route::get('/view-job/{id}', [App\Http\Controllers\Administrator\JobController::class, 'show'])->name('admin-view-job');
         Route::post('/save-job', [App\Http\Controllers\Administrator\JobController::class, 'save'])->name('admin-save-job');
         Route::get('/delete-job/{id}', [App\Http\Controllers\Administrator\JobController::class, 'delete'])->name('admin-delete-job');
+        
     });
 
     Route::group(['middleware' => ['role:super-admin']], function () {

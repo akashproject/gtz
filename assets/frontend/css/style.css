@@ -1291,3 +1291,23 @@ li.career-tag-item {
 li.career-tag-item a {
     color: #1e7fc2;
 }
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px 40px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+    transition: 1s all;
+}
+.form-floating>label.error {
+    top: 50px;
+    color: red;
+    padding: 0;
+    margin: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.form-group.disclaimer p {
+    font-size: 13px;
+}
