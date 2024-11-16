@@ -56,7 +56,25 @@
             </div>
         </div>
         <!-- About End -->
-
+        <!-- About Start -->
+        <div class="container-fluid about bg-light py-5">
+            <div class="container ">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class=" text-start mb-5">
+                            <h4 class="sub-title pe-3 mb-3">History of the organisation:</h4>
+                            <p> GTZ (India) Pvt. Ltd, once the Indian arm of US based trading house GETZ Bros &amp; Co Inc started its operations indenting and trading chemicals in 1936. </p>
+                            <p> In 1985 in order to continue its journey to becoming the leader in surface treatment chemicals, GTZ collaborated with WITCO Corporation USA and ventured into the production of Metal Finishing Chemicals. </p>
+                            <p>Ever since this collaboration GTZ has led the way in India and many overseas markets for its Metal Finishing and Steel Mill Chemicals businesses.<p>
+                            <p>After it’s success in Metal Finishing and Steel Mill Chemicals GTZ has entered into the space of polymer coatings, leather processing, and textile processing chemicals.</p>
+                            <p>It is now looking to leverage it’s strength in research and development, and its’ background in organic chemistry to venture into the growing field of Active Pharmaceutical Ingredients and make a lasting impact.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
         <!-- Team Start -->
         <div class="container-fluid team py-5">
             <div class="container py-5">
@@ -141,6 +159,19 @@
         </div>
         <!-- Team End -->
 
+         <!-- About Start -->
+         <div class="container-fluid about bg-light py-5">
+            <div class="container ">
+                <div class="row g-5 align-items-center">
+                    <div class="section-title text-center mb-5">
+                        <h2 class="display-3 mb-4">Our Mission</h2>
+                        <p class="mb-2">To be the market leader in surface treatment chemicals and active pharmaceutical</p>
+                        <p class="mb-2">ingredients and to provide the best product services to our customers while fully participating in the community and fulfilling our duty towards society.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
         <!-- About Start -->
         <div class="container-fluid about bg-light py-5">
             <div class="container ">
@@ -176,6 +207,18 @@
             </div>
             <div class="r_n_d_container" >
                 <div class="r_n_d_row">
+                    <div class="right_content text-end">
+                        <h3 class="text-primary">R & D</h3>
+                        <h4>The latent heat</h4>
+                        <p>GTZ is synonymous with innovation and customization. Development includes not only sporadic pioneering innovations but also a constant series of fundamental development. Our products make our customers’ products more effective. Thus, by continuously improving our products, we improve our customers’ products. We also focus on constant improvements in our environmental impact across the whole value chain.</p>
+                        <p>Our R&D comprises of a team of qualified scientists working incessantly to develop high quality, cost effective speciality chemicals to satisfactorily meet both the existing and emerging needs of the valued customers.</p>
+                        <p>Associating with the leading technological organizations allows the company to enhance the knowledge base and remain abreast with the latest technological progress.</p>
+                    </div>
+                    <div class="left_image">
+                        <img src="{{ url('/assets/frontend/img/auxilaries1.jpg') }}" class="img-fluid w-100" style="object-fit: cover;" alt="Image">
+                    </div>
+                </div>
+                <div class="r_n_d_row">
                     <div class="left_image">
                         <img src="{{ url('/assets/frontend/img/cs_steel-industry_hero.png') }}" class="img-fluid w-100" style="object-fit: cover;" alt="Image">
                     </div>
@@ -188,21 +231,11 @@
                         <p>We deliver constantly, consistently.</p>
                     </div> 
                 </div>
-                <div class="r_n_d_row">
-                    <div class="right_content text-end">
-                        <h3 class="text-primary">R & D</h3>
-                        <h4>The latent heat</h4>
-                        <p>GTZ is synonymous with innovation and customization. Development includes not only sporadic pioneering innovations but also a constant series of fundamental development. Our products make our customers’ products more effective. Thus, by continuously improving our products, we improve our customers’ products. We also focus on constant improvements in our environmental impact across the whole value chain.</p>
-                        <p>Our R&D comprises of a team of qualified scientists working incessantly to develop high quality, cost effective speciality chemicals to satisfactorily meet both the existing and emerging needs of the valued customers.</p>
-                        <p>Associating with the leading technological organizations allows the company to enhance the knowledge base and remain abreast with the latest technological progress.</p>
-                    </div>
-                    <div class="left_image">
-                        <img src="{{ url('/assets/frontend/img/auxilaries1.jpg') }}" class="img-fluid w-100" style="object-fit: cover;" alt="Image">
-                    </div>
-                </div>
             </div>
         </div>
         <!-- About End -->
+
+        
     @endsection
 @section('script')
 <!-- ============================================================== -->

@@ -39,7 +39,6 @@ class AppServiceProvider extends ServiceProvider
 
             $headerMenu = [
                 '/about-us' => "About Us",
-                '/portfolio' => "Portfolio",
                 '/career' => "Career",
                 '/gallery' => "Gallery",
                 '/contact-us' => "Contact Us",

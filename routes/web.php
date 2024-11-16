@@ -92,6 +92,8 @@ Route::group(['prefix' => 'administrator', 'namespace' => 'Admin'], function () 
 
     
 });
+
+
 Route::group(['middleware' => ['auth']], function () {
     
 });
@@ -102,3 +104,4 @@ Route::get('/ads/{slug}', [App\Http\Controllers\AdPageController::class, 'index'
 Route::get('/category/{slug}', [App\Http\Controllers\ProductController::class, 'productListByCategory'])->name('course-category');
 Route::get('/products/{slug}', [App\Http\Controllers\ProductController::class, 'productListByCategory'])->name('view-products');
 Route::get('/search/{slug}', [App\Http\Controllers\ProductController::class, 'search'])->name('search-products');
+Route::post('/capture-lead', [App\Http\Controllers\IndexController::class, 'captureLead'])->name('insert-lead-records');

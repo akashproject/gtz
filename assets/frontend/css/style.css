@@ -1176,9 +1176,10 @@
     background-size: cover;
 }
 .footer .footer-item a {
-    line-height: 35px;
+    line-height: 26px;
     color: var(--bs-body);
     transition: 0.5s;
+    font-size: 14px;
 }
 
 .footer .footer-item p {
@@ -1310,4 +1311,22 @@ li.career-tag-item a {
 }
 .form-group.disclaimer p {
     font-size: 13px;
+}
+.form-success-content {
+    text-align: center;
+    color: #474747;
+    border: 3px dashed #008000;
+    padding: 20px;
+    margin-bottom: 1.5rem;
+}
+span.success-icon {
+    font-size: 45px;
+    color: green;
+    border: 2px solid;
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 1.5rem auto;
+    margin-top: 0;
+    border-radius: 50%;
 }

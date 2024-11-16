@@ -1,20 +1,21 @@
-<form method="post" id="lead_generate_form" action="" >
+<form method="post" id="lead_generate_form" action="{{ route('insert-lead-records') }}" >
+    @csrf
     <div class="row g-3">
         <div class="col-md-12">
             <div class="form-floating mb-2">
-                <input type="text" class="form-control" id="name" name="full_name" placeholder="Enter Your Name" required>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name" required>
                 <label for="name">Your Name</label>
             </div>
         </div>
         <div class="col-md-12">
             <div class="form-floating mb-2">
-                <input type="email" class="form-control" id="email_address" name="email_address" placeholder="Enter Your Email Address" required>
+                <input type="email" class="form-control" id="email_address" name="email" placeholder="Enter Your Email Address" required>
                 <label for="email_address">Email Address</label>
             </div>
         </div>
         <div class="col-12">
             <div class="form-floating mb-2">
-                <input type="text" class="form-control" id="mobile" name="mobile_number" placeholder="Enter Your Mobile Number" required>
+                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Enter Your Mobile Number" required>
                 <label for="mobile_number">Mobile Number</label>
             </div>
         </div>

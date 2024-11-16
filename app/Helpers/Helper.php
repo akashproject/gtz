@@ -7,6 +7,7 @@ use Spatie\Permission\Models\Permission;
 use App\Models\Setting;
 use App\Models\Category;
 use App\Models\Vacancy;
+use App\Models\Product;
 
 if (! function_exists('check_device')) {
     function check_device($param = null){
@@ -94,6 +95,17 @@ if (! function_exists('jobs')) {
         try {
             $jobs = Vacancy::all();
             return $jobs;
+        } catch(\Illuminate\Database\QueryException $e){
+            throw $e;
+        }
+    }
+}
+
+if (! function_exists('getProducts')) {
+    function getProducts(){
+        try {
+            $products = Product::all();
+            return $products;
         } catch(\Illuminate\Database\QueryException $e){
             throw $e;
         }
