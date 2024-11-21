@@ -12,7 +12,6 @@
 	<div class="row gx-0 align-items-center" style="height: 45px;">
 		<div class="col-lg-8 text-center text-lg-start mb-lg-0">
 			<div class="d-flex flex-wrap">
-				<a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
 				<a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>{{ get_theme_setting('mobile') }}</a>
 				<a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>{{ get_theme_setting('email') }}</a>
 			</div>
@@ -51,7 +50,7 @@
 					<a href="{{ url($key) }}" class="nav-item nav-link">{{ $menu }}</a>
 				@endforeach
 			</div>
-			<a href="#lead-generate-popup" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0 open-popup-link">Book Appointment</a>
+			<a href="#lead-generate-popup" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0 open-popup-link">Get Quote</a>
 		</div>
 	</nav>
 </div>

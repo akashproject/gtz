@@ -21,12 +21,11 @@
                     <div class="sub-style mb-4">
                         <h4 class="sub-title text-white px-3 mb-0">Contact Us</h4>
                     </div>
-                    <p class="mb-0 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
+                    
                 </div>
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-5 col-xl-5 contact-form wow fadeInLeft" data-wow-delay="0.1s">
                         <h2 class="display-5 text-white mb-2">Get in Touch</h2>
-                        <p class="mb-4 text-white">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.</p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-lg-12 col-xl-6">
@@ -76,18 +75,18 @@
                             <div class="d-flex flex-column align-items-center text-center mb-4">
                                 <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
                                 <h4 class="text-dark">Addresses</h4>
-                                <p class="mb-0 text-white">{{ get_theme_setting('address') }}</p>
+                                <p class="mb-0 text-white">9, Brabourne Road, Kolkata 700 001, India</p>
                             </div>
                             <div class="d-flex flex-column align-items-center text-center mb-4">
                                 <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
                                 <h4 class="text-dark">Mobile</h4>
-                                <p class="mb-0 text-white">{{ get_theme_setting('mobile') }}</p>
+                                <p class="mb-0 text-white" ><a href="tel:+913322429900" class="text-white">+91 33 2242 9900</a></p>
                             </div>
                            
                             <div class="d-flex flex-column align-items-center text-center">
                                 <div class="bg-white d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
                                 <h4 class="text-dark">Email</h4>
-                                <p class="mb-0 text-white">{{ get_theme_setting('email') }}</p>
+                                <p class="mb-0 text-white"><a href="mailto:connect@gtzworld.com" class="text-white"> connect@gtzworld.com</a></p>
                             </div>
                         </div>
                     </div>

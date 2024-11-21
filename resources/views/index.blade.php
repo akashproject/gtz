@@ -8,23 +8,8 @@
                 <img src="{{ url('/assets/frontend/img/slider1.jpg')}}" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="carousel-caption-content p-3">
-                        <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">GTZ (India) Pvt Ltd</h5>
-                        <h1 class="display-1 text-capitalize text-white mb-4">GETZ Bros & Co Inc started its operations</h1>
-                        <p class="mb-5 fs-5">once the Indian arm of US based trading house GETZ Bros & Co Inc started its operations, 
-                        </p>
-                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Appointment</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header-carousel-item">
-                <img src="{{ url('/assets/frontend/img/slider1.jpg')}}" class="img-fluid w-100" alt="Image">
-                <div class="carousel-caption">
-                    <div class="carousel-caption-content p-3">
-                        <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">GTZ (India) Pvt Ltd</h5>
-                        <h1 class="display-1 text-capitalize text-white mb-4">GETZ Bros & Co Inc started its operations</h1>
-                        <p class="mb-5 fs-5 animated slideInDown">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        </p>
-                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Appointment</a>
+                        <h1 class="display-1 text-capitalize text-white mb-4">GTZ (India) Pvt Ltd</h1>
+                        <h5 class="text-white text-uppercase fw-bold mb-5 fs-5" style="letter-spacing: 3px;">discover the Magic of chemicals From banner book appontmnt CTA remove Banner carousel single..</h5>
                     </div>
                 </div>
             </div>
@@ -32,58 +17,6 @@
         <!-- Carousel End -->
     </div>
     <!-- Navbar & Hero End -->
-
-    <!-- Products Start -->
-    <div class="container-fluid service py-5">
-        <div class="container py-5">
-            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="sub-style">
-                    <h4 class="sub-title px-3 mb-0">What We Do</h4>
-                </div>
-                <h1 class="display-3 mb-4">Our Product Range</h1>
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
-            <div class="row g-4 justify-content-center">
-                @foreach(allCategories() as $key => $category)
-                <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item rounded">
-                        <div class="service-img rounded-top">
-                            <img src="{{ getSizedImage($category->featured_image) }}" class="img-fluid rounded-top w-100" alt="">
-                        </div>
-                        <div class="service-content rounded-bottom bg-light pb-4 pt-2">
-                            <div class="course-meta pb-4">
-                                <span class="course-category bold-font"><i class="fa fa-user"></i> 10.8k Sold</span>
-                                <div class="course-rate ul-li">
-                                    
-                                    <ul>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                                <span class="course-category bold-font"> (1.2k) Ratings </span>
-                            </div>
-                            <div class="service-content-inner text-center">
-                                <h4 class="mb-3"> {{ $category->name }}</h4>
-                                
-                                <p class="mb-4">{!! $category->excerpt !!}</p>
-                                <a href="{{ route('view-products',$category->slug) }}" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-               
-                
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Checkout More Products</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Products End -->
 
     <!-- About Start -->
     <div class="container-fluid about bg-light py-5">
@@ -113,15 +46,67 @@
     </div>
     <!-- About End -->
 
+    <!-- Products Start -->
+    <div class="container-fluid service py-5">
+        <div class="container py-5">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="sub-style">
+                    <h4 class="sub-title px-3 mb-0">What We Do</h4>
+                </div>
+                <h1 class="display-3 mb-4">Catering To Diverse Industries</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                @foreach(allCategories() as $key => $category)
+                <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded">
+                        <div class="service-img rounded-top">
+                            <img src="{{ getSizedImage($category->featured_image) }}" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                        <div class="service-content rounded-bottom bg-light pb-4 pt-2 fixed-height">
+                            <div class="course-meta pb-4">
+                                <!-- <span class="course-category bold-font"><i class="fa fa-user"></i> 10.8k Sold</span>
+                                <div class="course-rate ul-li">
+                                    
+                                    <ul>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                        <li><i class="fa fa-star"></i></li>
+                                    </ul>
+                                </div>
+                                <span class="course-category bold-font"> (1.2k) Ratings </span> -->
+                            </div>
+                            <div class="service-content-inner text-center pt-5">
+                                <h4 class="mb-3"> {{ $category->name }}</h4>
+                                
+                                <!-- <p class="mb-4">{!! $category->description !!}</p> -->
+                                <a href="{{ route('view-products',$category->slug) }}" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+               
+                
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="{{ url('/products') }}">Check Product Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
     <!-- Feature Start -->
-    <div class="container-fluid feature py-5">
+    <!-- <div class="container-fluid feature py-5">
         <div class="container py-5">
             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="sub-style">
                     <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
                 </div>
                 <h1 class="display-3 mb-4">Why Choose Us? Get Your Life Style Back</h1>
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
+               
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -249,93 +234,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Feature End -->
-
-    <!-- Book Appointment Start -->
-    <div class="container-fluid appointment py-5">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
-                    <div class="section-title text-start">
-                        <h4 class="sub-title pe-3 mb-0">Solutions To Your Pain</h4>
-                        <h1 class="display-4 mb-4">Best Quality Services With Minimal Pain Rate</h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
-                        <div class="row g-4">
-                            <div class="col-sm-6">
-                                <div class="d-flex flex-column h-100">
-                                    <div class="mb-4">
-                                        <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Body Relaxation</h5>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt qui cupiditate veritatis enim ducimus.</p>
-                                    </div>
-                                    <div class="mb-4">
-                                        <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Body Relaxation</h5>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et deserunt qui cupiditate veritatis enim ducimus.</p>
-                                    </div>
-                                    <div class="text-start mb-4">
-                                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="video h-100">
-                                    <img src="{{ url('/assets/frontend/img/video-img.jpg') }}" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
-                                    <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                                        <span></span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
-                    <div class="appointment-form rounded p-5">
-                        <p class="fs-4 text-uppercase text-primary">Get In Touch</p>
-                        <h1 class="display-5 mb-4">Get Appointment</h1>
-                        <form>
-                            <div class="row gy-3 gx-4">
-                                <div class="col-xl-6">
-                                    <input type="text" class="form-control py-3 border-primary bg-transparent text-white" placeholder="First Name">
-                                </div>
-                                <div class="col-xl-6">
-                                    <input type="email" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Email">
-                                </div>
-                                <div class="col-xl-6">
-                                    <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Phone">
-                                </div>
-                                <div class="col-xl-6">
-                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
-                                        <option selected>Your Gender</option>
-                                        <option value="1">Male</option>
-                                        <option value="2">FeMale</option>
-                                        <option value="3">Others</option>
-                                    </select>
-                                </div>
-                                <div class="col-xl-6">
-                                    <input type="date" class="form-control py-3 border-primary bg-transparent">
-                                </div>
-                                <div class="col-xl-6">
-                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
-                                        <option selected>Department</option>
-                                        <option value="1">Physiotherapy</option>
-                                        <option value="2">Physical Helth</option>
-                                        <option value="2">Treatments</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-primary bg-transparent text-white" name="text" id="area-text" cols="30" rows="5" placeholder="Write Comments"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT NOW</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Modal Video -->
     <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -453,7 +353,7 @@
     </div>
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title mb-5">
                 <div class="sub-style">
@@ -524,7 +424,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
     <!-- Blog Start -->
@@ -590,6 +490,90 @@
         </div>
     </div>
     <!-- Blog End -->
+
+    <!-- Book Appointment Start -->
+    <div class="container-fluid appointment py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
+                    <div class="section-title text-start">
+                        <h4 class="sub-title pe-3 mb-0">Connect to us</h4>
+                        <h1 class="display-4 mb-4">Get IN Touch</h1>
+                        <p class="mb-4">Speack to our Expart</p>
+                        <div class="row g-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex flex-column h-100">
+                                    <div class="mb-4">
+                                        <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Get instant support</h5>
+                                        <p class="mb-0">Talk to our expert to best price you are looking for.</p>
+                                    </div>
+                                    <div class="mb-4">
+                                        <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Still have doubts?</h5>
+                                        <p class="mb-0">Let's connect & escalate all the doubts regarding the products!</p>
+                                    </div>
+                                    <div class="text-start mb-4">
+                                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="video h-100">
+                                    <img src="{{ url('/assets/frontend/img/video-img.jpg') }}" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
+                                    <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="appointment-form rounded p-5">
+                        <!-- <p class="fs-4 text-uppercase text-primary">Get In Touch</p> -->
+                        <h1 class="display-5 mb-4">Get In Touch</h1>
+                        <form>
+                            <div class="row gy-3 gx-4">
+                                <div class="col-xl-6">
+                                    <input type="text" class="form-control py-3 border-primary bg-transparent text-white" placeholder="First Name">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="email" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Email">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Phone">
+                                </div>
+                                <div class="col-xl-6">
+                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
+                                        <option selected>Your Gender</option>
+                                        <option value="1">Male</option>
+                                        <option value="2">FeMale</option>
+                                        <option value="3">Others</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="date" class="form-control py-3 border-primary bg-transparent">
+                                </div>
+                                <div class="col-xl-6">
+                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
+                                        <option selected>Department</option>
+                                        <option value="1">Physiotherapy</option>
+                                        <option value="2">Physical Helth</option>
+                                        <option value="2">Treatments</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-primary bg-transparent text-white" name="text" id="area-text" cols="30" rows="5" placeholder="Write Comments"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT NOW</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     @endsection
 @section('script')
 <!-- ============================================================== -->

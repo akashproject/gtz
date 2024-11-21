@@ -39,8 +39,9 @@ class AppServiceProvider extends ServiceProvider
 
             $headerMenu = [
                 '/about-us' => "About Us",
-                '/career' => "Career",
+                '/blogs' => "Blogs",
                 '/gallery' => "Gallery",
+                '/career' => "Career",
                 '/contact-us' => "Contact Us",
             ];
             $view->with('headerMenu', $headerMenu);

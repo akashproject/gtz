@@ -1330,3 +1330,6 @@ span.success-icon {
     margin-top: 0;
     border-radius: 50%;
 }
+.fixed-height {
+    height: 270px;
+}
