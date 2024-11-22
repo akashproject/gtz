@@ -9,7 +9,7 @@
                 <div class="carousel-caption">
                     <div class="carousel-caption-content p-3">
                         <h1 class="display-1 text-capitalize text-white mb-4">GTZ (India) Pvt Ltd</h1>
-                        <h5 class="text-white text-uppercase fw-bold mb-5 fs-5" style="letter-spacing: 3px;">discover the Magic of chemicals From banner book appontmnt CTA remove Banner carousel single..</h5>
+                        <h5 class="text-white text-uppercase fw-bold mb-5 fs-5" style="letter-spacing: 3px;">Discover the Magic of chemicals</h5>
                     </div>
                 </div>
             </div>
@@ -261,10 +261,10 @@
         <div class="container py-5">
             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="sub-style">
-                    <h4 class="sub-title px-3 mb-0">Meet our team</h4>
+                    <h4 class="sub-title px-3 mb-0">Under R&D</h4>
                 </div>
-                <h1 class="display-3 mb-4">GTZ Management & Expertise</h1>
-                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti amet at atque sequi quibusdam cumque itaque repudiandae temporibus, eius nam mollitia voluptas maxime veniam necessitatibus saepe in ab? Repellat!</p>
+                <h1 class="display-3 mb-4">Products In Pipeline</h1>
+               
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -352,81 +352,6 @@
         </div>
     </div>
 
-    <!-- Testimonial Start -->
-    <!-- <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title mb-5">
-                <div class="sub-style">
-                    <h4 class="sub-title text-white px-3 mb-0">Testimonial</h4>
-                </div>
-                <h1 class="display-3 mb-4">What Clients are Say</h1>
-            </div>
-            <div class="testimonial-carousel owl-carousel">
-                <div class="testimonial-item">
-                    <div class="testimonial-inner p-5">
-                        <div class="testimonial-inner-img mb-4">
-                            <img src="{{ url('/assets/frontend/img/testimonial-img.jpg') }}" class="img-fluid rounded-circle" alt="">
-                        </div>
-                        <p class="text-white fs-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
-                        </p>
-                        <div class="text-center">
-                            <h5 class="mb-2">John Abraham</h5>
-                            <p class="mb-2 text-white-50">New York, USA</p>
-                            <div class="d-flex justify-content-center">
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-inner p-5">
-                        <div class="testimonial-inner-img mb-4">
-                            <img src="{{ url('/assets/frontend/img/testimonial-img.jpg') }}" class="img-fluid rounded-circle" alt="">
-                        </div>
-                        <p class="text-white fs-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
-                        </p>
-                        <div class="text-center">
-                            <h5 class="mb-2">John Abraham</h5>
-                            <p class="mb-2 text-white-50">New York, USA</p>
-                            <div class="d-flex justify-content-center">
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-inner p-5">
-                        <div class="testimonial-inner-img mb-4">
-                            <img src="{{ url('/assets/frontend/img/testimonial-img.jpg') }}" class="img-fluid rounded-circle" alt="">
-                        </div>
-                        <p class="text-white fs-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
-                        </p>
-                        <div class="text-center">
-                            <h5 class="mb-2">John Abraham</h5>
-                            <p class="mb-2 text-white-50">New York, USA</p>
-                            <div class="d-flex justify-content-center">
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                                <i class="fas fa-star text-secondary"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Testimonial End -->
-
     <!-- Blog Start -->
     <div class="container-fluid blog py-5">
         <div class="container py-5">
@@ -499,13 +424,12 @@
                     <div class="section-title text-start">
                         <h4 class="sub-title pe-3 mb-0">Connect to us</h4>
                         <h1 class="display-4 mb-4">Get IN Touch</h1>
-                        <p class="mb-4">Speack to our Expart</p>
                         <div class="row g-4">
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                                 <div class="d-flex flex-column h-100">
                                     <div class="mb-4">
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Get instant support</h5>
-                                        <p class="mb-0">Talk to our expert to best price you are looking for.</p>
+                                        <p class="mb-0">Connect with our expert for an answer to what you are looking for.</p>
                                     </div>
                                     <div class="mb-4">
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i> Still have doubts?</h5>
@@ -516,14 +440,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="video h-100">
-                                    <img src="{{ url('/assets/frontend/img/video-img.jpg') }}" class="img-fluid rounded w-100 h-100" style="object-fit: cover;" alt="">
-                                    <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-                                        <span></span>
-                                    </button>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -534,7 +451,7 @@
                         <form>
                             <div class="row gy-3 gx-4">
                                 <div class="col-xl-6">
-                                    <input type="text" class="form-control py-3 border-primary bg-transparent text-white" placeholder="First Name">
+                                    <input type="text" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Full Name">
                                 </div>
                                 <div class="col-xl-6">
                                     <input type="email" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Email">
@@ -543,26 +460,26 @@
                                     <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Phone">
                                 </div>
                                 <div class="col-xl-6">
-                                    <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
-                                        <option selected>Your Gender</option>
-                                        <option value="1">Male</option>
-                                        <option value="2">FeMale</option>
-                                        <option value="3">Others</option>
-                                    </select>
+                                    <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Country/Location">
                                 </div>
-                                <div class="col-xl-6">
-                                    <input type="date" class="form-control py-3 border-primary bg-transparent">
-                                </div>
-                                <div class="col-xl-6">
+                                <div class="col-xl-12">
                                     <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
-                                        <option selected>Department</option>
-                                        <option value="1">Physiotherapy</option>
-                                        <option value="2">Physical Helth</option>
-                                        <option value="2">Treatments</option>
+                                        <option selected>Select Category</option>
+                                        @foreach(allCategories() as $key => $category)
+                                        <option value="{{$category->name}}" >{{$category->name}}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-primary bg-transparent text-white" name="text" id="area-text" cols="30" rows="5" placeholder="Write Comments"></textarea>
+                                    <textarea class="form-control border-primary bg-transparent text-white" name="text" id="area-text" cols="30" rows="5" placeholder="Write Your Enquiry"></textarea>
+                                </div>
+                                <div class="form-group disclaimer text-left">
+                                    <p style="margin:0">
+                                        <input style="margin-left: 0;width: auto;vertical-align: middle;height: auto;" type="checkbox" class="" checked="">  I agree to receive updates on <i class="fab fa-whatsapp" style="color: green;"></i> whatsapp. 
+                                    </p>
+                                    <p>
+                                        <input style="margin-left: 0;width: auto;vertical-align: middle;height: auto;" type="checkbox" class="" checked=""> I agree to <a href="/privacy-policy" target="_blank">Privacy Policy</a> &amp; overriding DNC/NDNC request for Call/SMS. 
+                                    </p>
                                 </div>
                                 <div class="col-12">
                                     <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">SUBMIT NOW</button>

@@ -71,18 +71,6 @@
 								</div>
 							</div>
 
-							<div class="mb-3 row">
-								<label for="tags" class="col-md-4 text-left control-label col-form-label">Banner Image</label>
-								<div class="col-sm-8 text-center">
-									<a href="#imageBox" class="image-profile open-popup-link">
-										<img src="{{ (isset($category->banner_image))?getSizedImage('thumb',$category->banner_image):'https://dummyimage.com/150x150?text=Add%20Image' }}" alt="" style="width:100%">
-										<input type="hidden" name="banner_image" id="banner_image" value="{{ $category->banner_image }}" >	
-									</a>	
-									@if(isset($category->banner_image))
-										<a href="javascript:void(0)" class="removeImage" style="color: #c90f0f;font-weight: 600;"> Remove Image </a>	
-									@endif					
-								</div>
-							</div>
 
 							<div class="mb-3 row">
 								<label for="status" class="col-sm-3 text-right control-label col-form-label">Status</label>

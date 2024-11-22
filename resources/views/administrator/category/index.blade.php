@@ -61,15 +61,7 @@
 									<textarea class="form-control editor" name="description" id="description" placeholder="Enter description Here" ></textarea>
 								</div>
 							</div>
-							<!-- <div class="mb-3 row text-center">
-								<label for="tags" class="col-md-2 text-left control-label col-form-label">Brochure</label>
-								<div class="col-sm-8 text-center">
-									<a href="#imageBox" class="image-profile open-popup-link">
-										<img src="https://dummyimage.com/150x150?text=Upload%20File" alt="">
-										<input type="hidden" name="brochure_id" id="attachment" value="" >	
-									</a>	
-								</div>
-							</div>	 -->
+							
 							<div class="mb-3 row">
 								<label for="state" class="col-sm-3 text-right control-label col-form-label">Status</label>
 								<div class="col-sm-9">
