@@ -1200,10 +1200,9 @@
 /*** copyright end ***/
 
 .course-meta {
-    padding-left: 25px;
-    font-weight: 600;
     z-index: 9;
     position: relative;
+    line-height: 18px;
 }
 
 .course-meta .course-category, .latest-events .course-meta .course-author {
@@ -1332,4 +1331,51 @@ span.success-icon {
 }
 .fixed-height {
     height: 270px;
+}
+.product-list-view {
+    verflow-x: auto;
+    padding: 5px;
+}
+.product-list-view table {
+    width: 100%;
+}
+.product-list-view th {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    border-bottom: 3px solid #616dfd;
+}
+.product-list-view .list-head {
+    padding: 0;
+    border-bottom: 2px solid #1d69b5;
+    color: #333;
+}
+.product-list-view th {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    border-bottom: 3px solid #616dfd;
+}
+.product-list-view tr {
+    border-bottom: 1px solid #eee;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    padding: 15px;
+}
+.product-list-view td, .product-list-view th {
+    text-align: left;
+    padding: 20px 10px;
+}
+.product-list-view .course-list-text {
+    max-width: 225px;
+    display: inline-block;
+}
+.product-list-view .course-list-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+.color-primary {
+    color: #1e7fc2;
 }

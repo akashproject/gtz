@@ -38,7 +38,7 @@
                         <p class="mb-4">Our determination and commitment to the unrelenting pursuit of excellence is the key to our motivation.</p>
                         <p class="mb-4">GTZ (India) Pvt Ltd, once the Indian arm of US based trading house GETZ Bros & Co Inc started its operations indenting and trading chemicals in 1936. Committed to the philosophy of exceeding by excellence, the company collaborated with a Fortune 500 company, WITCO Corporation USA, a world leader in speciality chemicals in 1985 and ventured into the production of Metal Finishing Chemicals. Ever since GTZ has been engaged in production of world class finishing solutions.</p>
                         
-                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Discover More</a>
+                        <a href="/about-us" class="btn btn-primary rounded-pill text-white py-3 px-5">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -269,69 +269,97 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{{ url('/assets/frontend/img/team-1.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Full Name</h5>
-                            <p class="mb-0">Managing Director</p>
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>VONOPRAZAN</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{{ url('/assets/frontend/img/team-2.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Full Name</h5>
-                            <p class="mb-0">Chief Executive Officer</p>
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>BEMPEDOIC ACID</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{{ url('/assets/frontend/img/team-3.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Full Name</h5>
-                            <p class="mb-0">Project Head</p>
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>IVACAFTOR</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded">
-                        <div class="team-img rounded-top h-100">
-                            <img src="{{ url('/assets/frontend/img/team-4.jpg') }}" class="img-fluid rounded-top w-100" alt="">
-                            <div class="team-icon d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>EFINACONAZOLE</h5>
                         </div>
-                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5>Full Name</h5>
-                            <p class="mb-0">Tech Team Leader</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>METHYLENE BLUE</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>OZANIMOD</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>CENOBAMATE</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>FERUMOXYTOL</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>LIPOSOMAL MINERALS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>VERICIGUAT</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>FINERENONE</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        
+                        <div class="team-content text-center border border-primary border-top-0 rounded-bottom py-4">
+                            <h5>DORZOLAMIDE</h5>
                         </div>
                     </div>
                 </div>
@@ -451,18 +479,21 @@
                         <form>
                             <div class="row gy-3 gx-4">
                                 <div class="col-xl-6">
-                                    <input type="text" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Full Name">
+                                    <input type="text" name="user_name" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Full Name">
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="email" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Email">
+                                    <input type="email" name="user_email" class="form-control py-3 border-primary bg-transparent text-white" placeholder="Email">
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Phone">
+                                    <input type="phone" name="user_mobile" class="form-control py-3 border-primary bg-transparent" placeholder="Phone">
                                 </div>
                                 <div class="col-xl-6">
-                                    <input type="phone" class="form-control py-3 border-primary bg-transparent" placeholder="Country/Location">
+                                    <input type="text" name="country" class="form-control py-3 border-primary bg-transparent" placeholder="Country/Location">
                                 </div>
-                                <div class="col-xl-12">
+                                <div class="col-xl-6">
+                                    <input type="company" name="company" class="form-control py-3 border-primary bg-transparent" placeholder="Your Company Name">
+                                </div>
+                                <div class="col-xl-6">
                                     <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
                                         <option selected>Select Category</option>
                                         @foreach(allCategories() as $key => $category)
